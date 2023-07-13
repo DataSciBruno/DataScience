@@ -1,5 +1,8 @@
 # Naive Bayes for Stocks
-This repository contains a Python script that applies the Naive Bayes algorithm to analyze stock data. It calculates historical volatility, performs data analysis, and estimates implied volatility for options pricing.
+Stock prediction typically involves regression models. However, this repository presents an alternative approach using the Naive Bayes technique to provide the probability of a stock price increase on the following day based on data from the previous day. In addition to stock price prediction, the Python script included in this repository calculates historical volatility, performs data analysis, and estimates implied volatility for options pricing.
+
+## Introduction
+The Naive Bayes algorithm is a probabilistic classification technique that assumes independence among features. While it is commonly used for text classification, it can also be applied to stock price prediction by considering relevant features such as historical price movements, trading volumes, and other related data.
 
 ## Dependencies
 The script requires the following dependencies:
